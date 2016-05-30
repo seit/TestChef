@@ -1,0 +1,10 @@
+{
+  "run_list": [
+    "recipe[dstat]",
+    "recipe[git::default]", 
+    "recipe[git::source]"
+  ],
+  "automatic": {
+    "ipaddress": "centos6-chef"
+  }
+}
